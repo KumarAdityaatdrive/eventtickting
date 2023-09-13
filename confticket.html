@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
+    
+        <link rel="stylesheet" href="./global.css" />
+        <link rel="stylesheet" href="./confticket.css" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap"
+        />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Exo:wght@400;500&display=swap"
+        />
+        <link
+          href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+          rel="stylesheet"
+        />
+</head>
+<body>
+      
+  <nav class="navbar">
+    <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+    <a href="#" class="logo"><img src="./public/TicketFlo_light 1.png"></a>
+    <ul class="main-nav" id="js-menu">
+      <li>
+        <a href="#" class="nav-links">Home</a>
+      </li>
+      <li>
+        <a href="event.html" class="nav-links">Events</a>
+      </li>
+      <div class="dropdown">
+        <button class="dropbtn">My Order
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="ticketorder.html">Event Ticket</a>
+          <a href="merchandise.html">Ticket Merchandise</a>
+         
+        </div>
+      </div> 
+      <li>
+        <a href="cart.html" class="material-icons-outlined"> shopping_cart </a>
+      </li>
+      <li>
+        <img src="./public/profile.jpg" class="profile" />
+        <ul>
+          <li class="sub-item"onclick="window.location.href='paymenthistory.html';">
+            <span class="material-icons-outlined"> receipt_long </span>
+            <p>Payment History</p>
+          </li>
+          
+          <li class="sub-item"onclick="window.location.href='profile.html';">
+            <span class="material-icons-outlined"> manage_accounts </span>
+            <p>Update Profile</p>
+          </li>
+          
+         <li class="sub-item" onclick="window.location.href='loging.html';">
+            <span class="material-icons-outlined"> logout </span>
+            <p>Logout</p>
+          </li>
+    </ul>
+  </nav>
+
+
+      <div class="event-11-1130x650-1-parent">
+        <section class="event-11-1130x650-1"></section>
+        <section class="rectangle-section"></section>
+        <img
+          class="upcoming-event-1-1-icon"
+          alt=""
+          src="./public/upcomingevent1-1@2x.png"
+        />
+  
+        <div class="event-book-ticket-wrapper">
+          <b class="event-book-ticket">Event Book Ticket</b>
+        </div>
+      </div>
+      <!--form-->
+      <div class="frame-parent">
+        <main class="rectangle-parent">
+          <section class="frame-inner"></section>
+          <div class="div">
+            <span>91.54 </span>
+            <span class="span">$</span>
+          </div>
+          <h2 class="golf-championship1">Golf championship</h2>
+          <div class="jul-2023-1">22 Jul, 2023 - 23 Jul, 2023</div>
+          <div class="venue1">VENUE</div>
+          <div class="san-francisco1">San Francisco</div>
+          <img class="group-icon1" alt="" src="./public/location.svg" />
+  
+          <img class="frame-child1" alt="" src="./public/calender.svg" />
+  
+          <button class="component-781">
+            <div class="component-78-inner"></div>
+            <div class="get-ticket1">Add</div>
+            <img
+              class="component-78-child1"
+              alt=""
+              src="./public/cplus.svg"
+            />
+          </button>
+          <section class="rectangle-section-form"></section>
+          <div class="ticket-type1">Ticket Type</div>
+          <div class="total-amount">Total Amount</div>
+          <div class="booking-type1">Booking Type</div>
+          <div class="first-name1">First Name</div>
+          <div class="email1">Email</div>
+          <div class="guest-notes1">Guest Notes</div>
+          <div class="last-name1">Last Name</div>
+          <input class="frame-child2" type="text" />
+  
+          <input class="frame-child3" type="text" />
+  
+          <button class="component-822"onclick="window.location.href='paymentinformation.html';">
+            <div class="component-78-inner"></div>
+            <div class="event-information2">Confirm Booking</div>
+          </button>
+          <button class="component-831"onclick="window.location.href='event.html';">
+            <div class="component-78-inner"></div>
+            <div class="event-information3">
+              Cancel Booking & Return to Events
+            </div>
+          </button>
+          <div class="tickets-will-be">
+            Ticket(s) will be sent to your registered email(s)
+          </div>
+          <ol class="rectangle-ol"></ol>
+          <input class="frame-child4" type="text" />
+  
+         
+          <textarea class="frame-child5"> </textarea>
+          <select class="frame-child6" >
+            <option value="Buying for myself 
+            ">Buying for myself 
+            </option>
+            <option value="Buying for someone else 
+            ">Buying for someone else
+            </option>
+            </select>
+         
+          <select class="frame-child7" >
+            <option value="Standard Ticket ($91.54 each) 
+            ">Standard Ticket ($91.54 each) 
+            </option>
+            <option value="SPremium Ticket ($100.54 each) 
+            ">Premium Ticket ($100.54 each) 
+            </option>
+            
+          </select>
+  
+         
+        </main>
+      </div>
+      </body>
+</html>
